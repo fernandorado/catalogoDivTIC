@@ -393,11 +393,6 @@
     font-size: 2.6rem;
   }
   
-  .about-content p {
-    font-size: 1.6rem;
-    margin: 2rem 0 3rem;
-  }
-  
   .btn-box.btns {
     display: inline-block;
     width: 15rem;
@@ -414,155 +409,19 @@
     position: relative;
     font-size: 2.6rem;
     font-weight: 700;
-    color: var(--main-color);
+    color: white;
   }
-  
-  .service-content h3::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: var(--three-bg-color);
-    animation: showRight 1s ease forwards;
-    animation-delay: 1.3s;
-  }
+
   
   .service-content p {
     position: relative;
     margin: 2rem 0 3rem;
   }
   
-  .service-content p::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: var(--three-bg-color);
-    animation: showRight 1s ease forwards;
-    animation-delay: 1.6s;
-  }
   /*-----------------------------------------------------------------
 SERVICE SECTION
 -----------------------------------------------------------------*/
-/*** Service ***/
-.service-section h3{
-  color: white;
-}
 
-.service-row {
-  box-shadow: 0 0 45px rgba(0, 0, 0, .08);
-}
-/*
-.service-item {
-  border-color: rgba(0, 0, 0, .03) !important;
-}
-*/
-.service-item {
-  background-color: var(--color-primary);
-}
-
-
-.service-item .btn  {
-  width: 38px;
-  height: 38px;
-  display: inline-flex;
-  align-items: center;
-  color: var(--color-primary);
-  background: var(--color-secundary);
-  border-radius: 38px;
-  white-space: nowrap;
-  overflow: hidden;
-  transition: .5s;
-}
-
-/*====================================================================
-Service section
-====================================================================
-
-***/
-.tran3s,.theme-main-menu .navbar-nav>li a,#project-section .project-gallery .single-img .opacity,
-#team-section .team-member-wrapper .single-team-member .member-name h6,
-#team-section .team-member-wrapper .single-team-member .member-name p,
-#team-section .team-member-wrapper .single-team-member .member-name ul,
-#our-client .owl-theme .owl-dots .owl-dot span {
-  -webkit-transition: all .3s ease-in-out;
-     -moz-transition: all .3s ease-in-out;
-      -ms-transition: all .3s ease-in-out;
-       -o-transition: all .3s ease-in-out;
-          transition: all .3s ease-in-out;
- }
-.tran4s,#services .single-service-content p,#project-section .project-gallery .single-img .opacity ul,
-#project-section .project-gallery .single-img .opacity h6 a {
-  -webkit-transition: all .4s ease-in-out;
-     -moz-transition: all .4s ease-in-out;
-      -ms-transition: all .4s ease-in-out;
-       -o-transition: all .4s ease-in-out;
-          transition: all .4s ease-in-out;
- }
-#services {
-/*background: #232a34;*/
-padding-bottom: 80px;
-}
-#services .theme-title h2,
-#services .theme-title p {
-color:#fff;
-}
-
-#services .row [class*="col-"] {
-padding-top: 25px;
-}
-#services .single-service-content {
-border:1px solid #808489;
-text-align: center;
-margin-bottom: 20px;
-padding: 118px 10px 25px 10px;
-overflow: hidden;
-}
-#services .single-service-content p {
--webkit-transition-delay: 0.3s; /* Safari */
-transition-delay: 0.3s;
-opacity: 0;
--webkit-transform: translate3D(0,200px,0);
-   -moz-transform: translate3D(0,200px,0);
-    -ms-transform: translate3D(0,200px,0);
-     -o-transform: translate3D(0,200px,0);
-        transform: translate3D(0,200px,0);
-}
-#services .single-service-content .icon-heading {
-position: absolute;
-width: 100%;
-left:0;
-right: 0;
-top:120px;
-}
-#services .single-service-content .icon-heading .icon {
-font-size: 48px;
-color:#808489;
-width: 80px;
-margin: 0 auto;
-background: #232a34;
-}
-#services .single-service-content .icon-heading a {
-color:#808489;
-text-transform: capitalize;
-margin-top: 33px;
-}
-#services .single-service-content:hover .icon-heading {
-top:-10px;
-}
-#services .single-service-content:hover p {
-opacity: 1;
-color: #fff;
--webkit-transform: translate3D(0,0,0);
-   -moz-transform: translate3D(0,0,0);
-    -ms-transform: translate3D(0,0,0);
-     -o-transform: translate3D(0,0,0);
-        transform: translate3D(0,0,0);
-}
 /*** 
   /*--------------------------------------
   END SECTION SERVICIOS
