@@ -1,5 +1,5 @@
 let menuIcon = document.querySelector("#menu-icon");
-let navbar = document.querySelector(".navbar");
+let navbar = document.querySelector(".custom-navbar");
 
 window.onload = function () {
   // Verificar si estamos en la página de inicio
@@ -17,7 +17,7 @@ window.onload = function () {
 
 window.addEventListener("DOMContentLoaded", function () {
   var currentHash = window.location.hash;
-  var navbarLinks = document.querySelectorAll(".navbar a");
+  var navbarLinks = document.querySelectorAll(".custom-navbar a");
 
   navbarLinks.forEach(function (link) {
     if (link.getAttribute("href") === currentHash) {
