@@ -432,6 +432,7 @@ SERVICE SECTION
     flex-wrap: wrap;
     padding: 2rem 9%;
     background: var(--second-bg-color);
+    color: var(--text-color);
   }
   
   .footer-text p {
